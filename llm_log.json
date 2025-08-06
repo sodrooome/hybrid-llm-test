@@ -1,0 +1,469 @@
+[
+    {
+        "hash_id": "bb9b3c2157494467b37b7c8ed38e8e53",
+        "llm_model": "gpt-3.5-turbo",
+        "prompt_version": "v1",
+        "generated_summary": "A Principal Engineer from AWS, I bring 10+ years of experience across tech, HR, cloud computing, and higher education. My expertise includes Python, AWS, Docker, and microservices, backed by a PhD in Computer Science from University Twente and BS/MS degrees from ITB. Highly endorsed for technical leadership, software engineering, research, and distributed systems. I'm casually browsing, open to new opportunities.",
+        "baseline_summary": "A seasoned Principal Engineer from AWS, I bring 10+ years of experience across technology, HR, cloud computing, and higher education. My expertise spans Python, AWS, Docker, and microservices, complemented by a PhD in Computer Science from University Twente and degrees in Electrical Engineering from ITB. I'm casually browsing for new opportunities. Highly endorsed for Python, distributed systems, research, software engineering, and leadership; also endorsed for software engineering and research",
+        "similarity_score": 0.7528996467590332,
+        "length_is_ok": true,
+        "incomplete_generation": true,
+        "coverage": {
+            "experience": true,
+            "education": true,
+            "skills": true,
+            "languages": false,
+            "availability": true
+        },
+        "test_failures": [
+            "similarity_score",
+            "incomplete_generation",
+            "length_is_ok",
+            "languages"
+        ],
+        "summary_length": 416,
+        "timestamp": "04-08-2025 12:03:39",
+        "test_result": "fail"
+    },
+    {
+        "hash_id": "9bbce7150cce4266919c981a37cc2712",
+        "llm_model": "gpt-3.5-turbo",
+        "prompt_version": "v1",
+        "generated_summary": "A seasoned Principal Engineer from AWS, I bring 10+ years of expertise across Technology, HR, Cloud Computing, and Higher Education. My PhD in Computer Science from University Twente complements my BS/MS in Electrical Engineering from ITB. Highly endorsed for Python, distributed systems, research, software engineering and leadership. My skills includes Python, AWS, Docker, Microservices and Technical Leadership. Fluent in English, Indonesian, Malay, and Dutch. Casually browsing, flexible.",
+        "baseline_summary": "A seasoned Principal Engineer from AWS, I bring 10+ years of experience across technology, HR, cloud computing, and higher education. My expertise spans Python, AWS, Docker, and microservices, complemented by a PhD in Computer Science from University Twente and degrees in Electrical Engineering from ITB. I'm casually browsing for new opportunities. Highly endorsed for Python, distributed systems, research, software engineering, and leadership; also endorsed for software engineering and research",
+        "similarity_score": 0.5878341794013977,
+        "length_is_ok": true,
+        "incomplete_generation": true,
+        "coverage": {
+            "experience": true,
+            "education": true,
+            "skills": false,
+            "languages": true,
+            "availability": true
+        },
+        "test_failures": [
+            "similarity_score",
+            "incomplete_generation",
+            "length_is_ok",
+            "skills"
+        ],
+        "summary_length": 493,
+        "timestamp": "04-08-2025 12:11:16",
+        "test_result": "fail"
+    },
+    {
+        "hash_id": "d3362f23325041aa8ef90da6ba5bfffd",
+        "llm_model": "gpt-3.5-turbo",
+        "prompt_version": "v1",
+        "generated_summary": "Principal Engineer with a PhD in Computer Science from University Twente and BS/MS in Electrical Engineering from ITB. 10 years of experience in Technology, HR, Cloud Computing and Higher Education at AWS. Highly endorsed for Python, distributed systems, research, software engineering and leadership. Skills include AWS, Docker, Microservices, and technical leadership. Fluent in English, Indonesian, Malay, and Dutch, and casually browsing for new opportunities.",
+        "baseline_summary": "A seasoned Principal Engineer from AWS, I bring 10+ years of experience across technology, HR, cloud computing, and higher education. My expertise spans Python, AWS, Docker, and microservices, complemented by a PhD in Computer Science from University Twente and degrees in Electrical Engineering from ITB. I'm casually browsing for new opportunities. Highly endorsed for Python, distributed systems, research, software engineering, and leadership; also endorsed for software engineering and research",
+        "similarity_score": 0.5093528032302856,
+        "length_is_ok": true,
+        "incomplete_generation": true,
+        "coverage": {
+            "experience": true,
+            "education": true,
+            "skills": false,
+            "languages": true,
+            "availability": true
+        },
+        "test_failures": [
+            "similarity_score",
+            "incomplete_generation",
+            "length_is_ok",
+            "skills"
+        ],
+        "summary_length": 464,
+        "timestamp": "04-08-2025 12:12:13",
+        "test_result": "fail",
+        "bias_detected": []
+    },
+    {
+        "hash_id": "4d0657338f2f487eb50ebff83d535bff",
+        "llm_model": "gpt-3.5-turbo",
+        "prompt_version": "v1",
+        "generated_summary": "Driven Principal Engineer from AWS, bringing 10 years of experience across Technology, HR, Cloud Computing, and Higher Education. PhD in Computer Science (University Twente), with BS/MS in Electrical Engineering (ITB). Highly endorsed for Python, Distributed Systems, Research, Software Engineering, and Leadership. Possess skills in AWS, Docker, Microservices and fluent in English, Indonesian, Malay, and Dutch. Casually browsing, flexible to discuss new opportunities.",
+        "baseline_summary": "A seasoned Principal Engineer from AWS, I bring 10+ years of experience across technology, HR, cloud computing, and higher education. My expertise spans Python, AWS, Docker, and microservices, complemented by a PhD in Computer Science from University Twente and degrees in Electrical Engineering from ITB. I'm casually browsing for new opportunities. Highly endorsed for Python, distributed systems, research, software engineering, and leadership; also endorsed for software engineering and research",
+        "similarity_score": 0.4885155260562897,
+        "length_is_ok": true,
+        "incomplete_generation": true,
+        "coverage": {
+            "experience": true,
+            "education": true,
+            "skills": false,
+            "languages": true,
+            "availability": true
+        },
+        "missing_anchors": [
+            "Technology, Human Resources, Cloud Computing, Higher Education"
+        ],
+        "test_failures": [
+            "similarity_score",
+            "incomplete_generation",
+            "length_is_ok",
+            "missing_anchors",
+            "skills"
+        ],
+        "summary_length": 471,
+        "timestamp": "04-08-2025 12:32:28",
+        "test_result": "fail",
+        "bias_detected": []
+    },
+    {
+        "hash_id": "e8fe547cf93a4f6bb9f930e6b5d7c17a",
+        "llm_model": "gpt-3.5-turbo",
+        "prompt_version": "v1",
+        "generated_summary": "Driven Principal Engineer from AWS with 10 years of experience across tech, HR, cloud, and higher education. PhD in Computer Science from University Twente, with BS/MS in Electrical Engineering from ITB. Highly endorsed for Python, leadership, distributed systems, research and software engineering. Consistently endorsed in software engineer and research assistant experience. Flexible and casually browsing.",
+        "baseline_summary": "A seasoned Principal Engineer from AWS, I bring 10+ years of experience across technology, HR, cloud computing, and higher education. My expertise spans Python, AWS, Docker, and microservices, complemented by a PhD in Computer Science from University Twente and degrees in Electrical Engineering from ITB. I'm casually browsing for new opportunities. Highly endorsed for Python, distributed systems, research, software engineering, and leadership; also endorsed for software engineering and research",
+        "similarity_score": 0.5075474381446838,
+        "length_is_ok": true,
+        "incomplete_generation": true,
+        "coverage": {
+            "experience": true,
+            "education": true,
+            "skills": false,
+            "languages": false,
+            "availability": true
+        },
+        "missing_anchors": [
+            "Technology, Human Resources, Cloud Computing, Higher Education",
+            "Casually browsing, flexible"
+        ],
+        "test_failures": [
+            "similarity_score",
+            "incomplete_generation",
+            "length_is_ok",
+            "missing_anchors",
+            "skills",
+            "languages"
+        ],
+        "summary_length": 409,
+        "timestamp": "04-08-2025 12:33:38",
+        "test_result": "fail",
+        "bias_detected": []
+    },
+    {
+        "hash_id": "5bc8a2f8f8ea4d0ea47ce7b97a1ce106",
+        "llm_model": "gpt-3.5-turbo",
+        "prompt_version": "v1",
+        "generated_summary": "A seasoned Principal Engineer from AWS, I bring 10 years of experience across tech, HR, cloud computing, and higher education. My expertise spans Python, AWS, Docker, and microservices, underpinned by a PhD in Computer Science from University Twente and degrees from ITB. Highly endorsed for technical leadership, research, and software engineering, and casually exploring new opportunities.",
+        "baseline_summary": "A seasoned Principal Engineer from AWS, I bring 10+ years of experience across technology, HR, cloud computing, and higher education. My expertise spans Python, AWS, Docker, and microservices, complemented by a PhD in Computer Science from University Twente and degrees in Electrical Engineering from ITB. I'm casually browsing for new opportunities. Highly endorsed for Python, distributed systems, research, software engineering, and leadership; also endorsed for software engineering and research",
+        "similarity_score": 0.7595214247703552,
+        "length_is_ok": true,
+        "incomplete_generation": true,
+        "coverage": {
+            "experience": true,
+            "education": true,
+            "skills": false,
+            "languages": false,
+            "availability": false
+        },
+        "missing_anchors": [
+            "Technology, Human Resources, Cloud Computing, Higher Education",
+            "Casually browsing, flexible"
+        ],
+        "test_failures": [
+            "similarity_score",
+            "incomplete_generation",
+            "length_is_ok",
+            "missing_anchors",
+            "hallucinated",
+            "skills",
+            "languages",
+            "availability"
+        ],
+        "summary_length": 391,
+        "timestamp": "04-08-2025 12:39:05",
+        "test_result": "fail",
+        "bias_detected": [],
+        "hallucinated": [
+            "and",
+            "science",
+            "expertise",
+            "across",
+            "software",
+            "degrees",
+            "my",
+            "new",
+            "technical",
+            "bring",
+            "computer",
+            "seasoned",
+            "spans",
+            "by",
+            "highly",
+            "underpinned",
+            "for",
+            "phd",
+            "exploring",
+            "university",
+            "twente",
+            "endorsed"
+        ]
+    },
+    {
+        "hash_id": "087e6c3798da4afaacfab0b8424fad1d",
+        "llm_model": "gpt-3.5-turbo",
+        "prompt_version": "v1",
+        "generated_summary": "A seasoned Principal Engineer from AWS, I bring 10 years of experience across tech, HR, cloud computing, and higher education. My expertise spans Python, AWS, Docker, and microservices, underpinned by a PhD in Computer Science from University Twente and degrees from ITB. Highly endorsed for technical leadership, research and software engineering. Casually browsing, flexible and open to new opportunities.",
+        "baseline_summary": "A seasoned Principal Engineer from AWS, I bring 10+ years of experience across technology, HR, cloud computing, and higher education. My expertise spans Python, AWS, Docker, and microservices, complemented by a PhD in Computer Science from University Twente and degrees in Electrical Engineering from ITB. I'm casually browsing for new opportunities. Highly endorsed for Python, distributed systems, research, software engineering, and leadership; also endorsed for software engineering and research",
+        "similarity_score": 0.6980903148651123,
+        "length_is_ok": true,
+        "incomplete_generation": true,
+        "coverage": {
+            "experience": true,
+            "education": true,
+            "skills": false,
+            "languages": false,
+            "availability": true
+        },
+        "missing_anchors": [
+            "Technology, Human Resources, Cloud Computing, Higher Education"
+        ],
+        "test_failures": [
+            "similarity_score",
+            "incomplete_generation",
+            "length_is_ok",
+            "missing_anchors",
+            "hallucinated",
+            "skills",
+            "languages"
+        ],
+        "summary_length": 407,
+        "timestamp": "04-08-2025 12:49:52",
+        "test_result": "fail",
+        "bias_detected": [],
+        "hallucinated": [
+            "phd",
+            "twente",
+            "bring",
+            "highly",
+            "software",
+            "expertise",
+            "by",
+            "for",
+            "to",
+            "university",
+            "spans",
+            "my",
+            "open",
+            "new",
+            "endorsed",
+            "across",
+            "underpinned",
+            "science",
+            "degrees",
+            "technical",
+            "seasoned",
+            "and",
+            "research",
+            "computer"
+        ]
+    },
+    {
+        "hash_id": "4ba73bfffbfc421895e3e29ce35f6e4b",
+        "llm_model": "gpt-3.5-turbo",
+        "prompt_version": "v1",
+        "generated_summary": "A Principal Engineer from AWS with a decade of experience across technology, HR, cloud computing, and higher education. I hold a PhD in Computer Science from University Twente, plus BS/MS degrees in Electrical Engineering from ITB. Highly endorsed for Python, distributed systems, research, software engineering, and leadership. My skills also include Docker and Microservices. Fluent in English, Indonesian, Malay, and Dutch. Casually browsing for opportunities.",
+        "baseline_summary": "A seasoned Principal Engineer from AWS, I bring 10+ years of experience across technology, HR, cloud computing, and higher education. My expertise spans Python, AWS, Docker, and microservices, complemented by a PhD in Computer Science from University Twente and degrees in Electrical Engineering from ITB. I'm casually browsing for new opportunities. Highly endorsed for Python, distributed systems, research, software engineering, and leadership; also endorsed for software engineering and research",
+        "similarity_score": 0.5994331240653992,
+        "length_is_ok": true,
+        "incomplete_generation": true,
+        "coverage": {
+            "experience": true,
+            "education": true,
+            "skills": false,
+            "languages": true,
+            "availability": true
+        },
+        "missing_anchors": null,
+        "test_failures": [
+            "similarity_score",
+            "incomplete_generation",
+            "length_is_ok",
+            "hallucinated",
+            "skills"
+        ],
+        "summary_length": 463,
+        "timestamp": "04-08-2025 15:15:51",
+        "test_result": "fail",
+        "bias_detected": null,
+        "hallucinated": [
+            "across",
+            "skills",
+            "also",
+            "software",
+            "phd",
+            "highly",
+            "decade",
+            "for",
+            "engineering",
+            "docker",
+            "fluent",
+            "and",
+            "electrical",
+            "with",
+            "hold",
+            "my",
+            "computer",
+            "distributed",
+            "include",
+            "endorsed",
+            "plus",
+            "science",
+            "degrees",
+            "university"
+        ]
+    },
+    {
+        "hash_id": "60ec894ea95d4777845e4b3fb4d15000",
+        "llm_model": "gpt-3.5-turbo",
+        "prompt_version": "v1",
+        "generated_summary": "Driven Principal Engineer from AWS with 10 years of experience in technology, HR and cloud. PhD in Computer Science from University Twente, plus BS/MS in Electrical Engineering from ITB. Highly endorsed for Python, distributed systems, research, software engineering, and leadership. Also skilled in Docker and Microservices with fluency in English, Indonesian, Malay, and Dutch. Casually browsing for new opportunities.",
+        "baseline_summary": "A seasoned Principal Engineer from AWS, I bring 10+ years of experience across technology, HR, cloud computing, and higher education. My expertise spans Python, AWS, Docker, and microservices, complemented by a PhD in Computer Science from University Twente and degrees in Electrical Engineering from ITB. I'm casually browsing for new opportunities. Highly endorsed for Python, distributed systems, research, software engineering, and leadership; also endorsed for software engineering and research",
+        "similarity_score": 0.5293315052986145,
+        "length_is_ok": true,
+        "incomplete_generation": true,
+        "coverage": {
+            "experience": true,
+            "education": true,
+            "skills": true,
+            "languages": false,
+            "availability": true
+        },
+        "missing_anchors": null,
+        "test_failures": [
+            "similarity_score",
+            "incomplete_generation",
+            "length_is_ok",
+            "languages"
+        ],
+        "summary_length": 420,
+        "timestamp": "04-08-2025 15:16:37",
+        "test_result": "fail",
+        "bias_detected": null,
+        "hallucinated": null
+    },
+    {
+        "hash_id": "4bdaddb965d44fa79fcab33319b32dba",
+        "llm_model": "gpt-3.5-turbo",
+        "prompt_version": "v1",
+        "generated_summary": "Principal Engineer with 10 years of experience at AWS, ready to drive innovation! PhD in Computer Science from University Twente, plus BS/MS in Electrical Engineering from ITB. Expertise in Python, AWS, Docker, and Microservices, with strong technical leadership skills. Highly endorsed for research, software engineering and leadership. Also casually browsing with flexible availability.",
+        "baseline_summary": "A seasoned Principal Engineer from AWS, I bring 10+ years of experience across technology, HR, cloud computing, and higher education. My expertise spans Python, AWS, Docker, and microservices, complemented by a PhD in Computer Science from University Twente and degrees in Electrical Engineering from ITB. I'm casually browsing for new opportunities. Highly endorsed for Python, distributed systems, research, software engineering, and leadership; also endorsed for software engineering and research",
+        "similarity_score": 0.46163812279701233,
+        "length_is_ok": true,
+        "incomplete_generation": true,
+        "coverage": {
+            "experience": true,
+            "education": true,
+            "skills": true,
+            "languages": false,
+            "availability": true
+        },
+        "missing_anchors": null,
+        "test_failures": [
+            "similarity_score",
+            "incomplete_generation",
+            "length_is_ok",
+            "languages"
+        ],
+        "summary_length": 388,
+        "timestamp": "05-08-2025 08:18:14",
+        "test_result": "fail",
+        "bias_detected": null,
+        "hallucinated": null
+    },
+    {
+        "hash_id": "532ade3adec14792b052400d871f91da",
+        "llm_model": "gpt-3.5-turbo",
+        "prompt_version": "v1",
+        "generated_summary": "Driven Principal Engineer from AWS, boasting 10 years' experience across tech, HR, cloud, and education. PhD in Computer Science from University Twente, plus BS/MS in Electrical Engineering (ITB). Key skills: Python, AWS, Docker, Microservices and leadership. Fluent in English, Indonesian, Malay, and Dutch. Highly endorsed for Python, distributed systems, research, software engineering, and leadership, with strong endorsements in software engineering and research assistant roles. Casually..",
+        "baseline_summary": "A seasoned Principal Engineer from AWS, I bring 10+ years of experience across technology, HR, cloud computing, and higher education. My expertise spans Python, AWS, Docker, and microservices, complemented by a PhD in Computer Science from University Twente and degrees in Electrical Engineering from ITB. I'm casually browsing for new opportunities. Highly endorsed for Python, distributed systems, research, software engineering, and leadership; also endorsed for software engineering and research",
+        "similarity_score": 0.5540111660957336,
+        "length_is_ok": true,
+        "incomplete_generation": false,
+        "coverage": {
+            "experience": false,
+            "education": true,
+            "skills": false,
+            "languages": true,
+            "availability": false
+        },
+        "missing_anchors": null,
+        "test_failures": [
+            "similarity_score",
+            "length_is_ok",
+            "experience",
+            "skills",
+            "availability"
+        ],
+        "summary_length": 495,
+        "timestamp": "05-08-2025 08:18:31",
+        "test_result": "fail",
+        "bias_detected": null,
+        "hallucinated": null
+    },
+    {
+        "hash_id": "f9160db4608041748f1f350bd7b4f587",
+        "llm_model": "gpt-3.5-turbo",
+        "prompt_version": "v1",
+        "generated_summary": "A Principal Engineer from AWS, with 10 years in tech, HR, cloud, and education. PhD in Computer Science from University Twente, plus BS/MS in Electrical Engineering from ITB. Highly endorsed for Python, distributed systems, research, software engineering and leadership. Also fluent in English, Indonesian, Malay, and Dutch, casually browsing for new opportunities.",
+        "baseline_summary": "A seasoned Principal Engineer from AWS, I bring 10+ years of experience across technology, HR, cloud computing, and higher education. My expertise spans Python, AWS, Docker, and microservices, complemented by a PhD in Computer Science from University Twente and degrees in Electrical Engineering from ITB. I'm casually browsing for new opportunities. Highly endorsed for Python, distributed systems, research, software engineering, and leadership; also endorsed for software engineering and research",
+        "similarity_score": 0.5395622849464417,
+        "length_is_ok": true,
+        "incomplete_generation": true,
+        "coverage": {
+            "experience": false,
+            "education": true,
+            "skills": false,
+            "languages": true,
+            "availability": true
+        },
+        "missing_anchors": null,
+        "test_failures": [
+            "similarity_score",
+            "incomplete_generation",
+            "length_is_ok",
+            "experience",
+            "skills"
+        ],
+        "summary_length": 365,
+        "timestamp": "05-08-2025 11:44:14",
+        "test_result": "fail",
+        "bias_detected": null,
+        "hallucinated": null
+    },
+    {
+        "hash_id": "74689788c2584e6cb426a80c8751ba43",
+        "llm_model": "gpt-4",
+        "prompt_version": "v1",
+        "generated_summary": "Developed and maintained scalable software solutions using Agile methodologies. Collaborated with cross-functional teams to deliver high-quality code. Implemented key features, improving system performance by 15%. Conducted thorough testing and debugging, ensuring code reliability. Contributed to architectural design decisions. Mentored junior engineers, fostering a collaborative environment. Adhered to Malaysian work culture, emphasizing teamwork and respect.",
+        "baseline_summary": "Developed and maintained scalable software solutions using Agile methodologies. Collaborated with cross-functional teams to deliver high-quality code. Implemented key features, resulting in a 20% performance improvement. Troubleshooted and resolved critical software defects. Contributed to system design and architecture. Actively participated in code reviews and knowledge sharing. Adapted solutions to meet local requirements. Focused on delivering impactful results",
+        "similarity_score": 0.5655892491340637,
+        "length_is_ok": true,
+        "incomplete_generation": true,
+        "coverage": {
+            "experience": false,
+            "education": false,
+            "skills": false,
+            "languages": false,
+            "availability": false
+        },
+        "missing_anchors": null,
+        "test_failures": [
+            "similarity_score",
+            "incomplete_generation",
+            "length_is_ok",
+            "experience",
+            "education",
+            "skills",
+            "languages",
+            "availability"
+        ],
+        "summary_length": 464,
+        "timestamp": "05-08-2025 11:44:18",
+        "test_result": "fail",
+        "bias_detected": null,
+        "hallucinated": null
+    }
+]

@@ -1,0 +1,59 @@
+{
+  "hash_id": "5bc8a2f8f8ea4d0ea47ce7b97a1ce106",
+  "llm_model": "gpt-3.5-turbo",
+  "prompt_version": "v1",
+  "generated_summary": "A seasoned Principal Engineer from AWS, I bring 10 years of experience across tech, HR, cloud computing, and higher education. My expertise spans Python, AWS, Docker, and microservices, underpinned by a PhD in Computer Science from University Twente and degrees from ITB. Highly endorsed for technical leadership, research, and software engineering, and casually exploring new opportunities.",
+  "baseline_summary": "A seasoned Principal Engineer from AWS, I bring 10+ years of experience across technology, HR, cloud computing, and higher education. My expertise spans Python, AWS, Docker, and microservices, complemented by a PhD in Computer Science from University Twente and degrees in Electrical Engineering from ITB. I'm casually browsing for new opportunities. Highly endorsed for Python, distributed systems, research, software engineering, and leadership; also endorsed for software engineering and research",
+  "similarity_score": 0.7595214247703552,
+  "length_is_ok": true,
+  "incomplete_generation": true,
+  "coverage": {
+    "experience": true,
+    "education": true,
+    "skills": false,
+    "languages": false,
+    "availability": false
+  },
+  "missing_anchors": [
+    "Technology, Human Resources, Cloud Computing, Higher Education",
+    "Casually browsing, flexible"
+  ],
+  "test_failures": [
+    "similarity_score",
+    "incomplete_generation",
+    "length_is_ok",
+    "missing_anchors",
+    "hallucinated",
+    "skills",
+    "languages",
+    "availability"
+  ],
+  "summary_length": 391,
+  "timestamp": "04-08-2025 12:39:05",
+  "test_result": "fail",
+  "bias_detected": [],
+  "hallucinated": [
+    "and",
+    "science",
+    "expertise",
+    "across",
+    "software",
+    "degrees",
+    "my",
+    "new",
+    "technical",
+    "bring",
+    "computer",
+    "seasoned",
+    "spans",
+    "by",
+    "highly",
+    "underpinned",
+    "for",
+    "phd",
+    "exploring",
+    "university",
+    "twente",
+    "endorsed"
+  ]
+}
