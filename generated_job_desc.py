@@ -1,7 +1,10 @@
 import requests
 import warnings
-from config import REQUEST_BODY, WORK_EXP_REQUEST_BODY
-from bert_score import score  # type: ignore
+import os
+from dotenv import load_dotenv
+from config import BATCH_REQUEST_BODY, BATCH_WORK_EXP_REQUEST_BODY
+from bert_score import score
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
 warnings.filterwarnings(
@@ -9,35 +12,74 @@ warnings.filterwarnings(
     message="You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.",
 )
 
+load_dotenv()
 
-def generate_job_desc():
+base_url = os.getenv("BASE_URL")
+x_api_key = os.getenv("X_API_KEY")
+
+
+def generate_profile_summary(request_body: dict[str, str]):
     # change this base URL here with the one you have
-    request_url = "base-url-here/development/genai"
+    request_url = f"{base_url}"
     request_headers = {
-        "x-api-key": "some-secret-key",
+        "x-api-key": f"{x_api_key}",
         "type": "profile_summary",
     }
-    response = requests.post(request_url, headers=request_headers, json=REQUEST_BODY)
+    response = requests.post(request_url, headers=request_headers, json=request_body)
     if response.status_code == 200:
         return response.json()
     else:
         response.raise_for_status()
 
 
-def generate_work_experience():
+def generate_work_experience(request_body: dict[str, str]):
     # change this base URL here with the one you have
-    request_url = "base-url-here/development/genai"
+    request_url = f"{base_url}"
     request_headers = {
-        "x-api-key": "some-secret-key",
+        "x-api-key": f"{x_api_key}",
         "type": "work_experience",
     }
-    response = requests.post(
-        request_url, headers=request_headers, json=WORK_EXP_REQUEST_BODY
-    )
+    response = requests.post(request_url, headers=request_headers, json=request_body)
     if response.status_code == 200:
         return response.json()
     else:
         response.raise_for_status()
+
+
+def generate_batch_summaries(type: str) -> list:
+    results = []
+
+    # WIP: should tidy up this function
+    if type == "work_exp":
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            future_to_url = [
+                executor.submit(generate_work_experience, input_data)
+                for input_data in BATCH_WORK_EXP_REQUEST_BODY
+            ]
+
+            for future in as_completed(future_to_url):
+                try:
+                    results.append(future.result())
+                except Exception as e:
+                    raise Exception(f"There's something wrong with the request: {e}")
+    elif type == "profile_summary":
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            future_to_url = [
+                executor.submit(generate_profile_summary, input_data)
+                for input_data in BATCH_REQUEST_BODY
+            ]
+
+            for future in as_completed(future_to_url):
+                try:
+                    results.append(future.result())
+                except Exception as e:
+                    raise Exception(f"There's something wrong with the request: {e}")
+    else:
+        raise ValueError(
+            "Invalid type, for now only consists of work_exp and profile_summary"
+        )
+
+    return results
 
 
 def semantic_similarity(reference, candidate) -> float:
